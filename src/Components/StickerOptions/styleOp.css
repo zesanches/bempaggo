@@ -1,0 +1,28 @@
+img{
+    width: 20px;
+    height: 20px;
+}
+
+div.option-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+label.label{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+div.sticker-container{
+    margin-top: 5px;
+    margin-left: 10px;
+}

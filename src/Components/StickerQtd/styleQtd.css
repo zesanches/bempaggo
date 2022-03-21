@@ -1,0 +1,28 @@
+div.qtd-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+button.remove, button.add{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #303777;
+    color: #fff;
+    font-size: 20px;    
+}
+
+input.qtd-input{
+    border: solid 1px #8b90b2;
+    border-radius: 8px;
+    background-color: rgb(221,226,233);
+    width: 60px;
+    outline: none;
+}
